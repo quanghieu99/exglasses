@@ -18,7 +18,7 @@ const GlassesTryOnApp = () => {
 
           <div className="relative w-80 h-100 rounded-lg shadow-md">
             <img src="./assets/glassesImage/model.jpg" alt="Model" className="w-full h-full object-cover" />
-            {selectedGlasses && <img src={selectedGlasses.url} alt={selectedGlasses.name} className="absolute top-1/4 left-1/2 transform -translate-x-1/2 w-2/3" />}
+            {selectedGlasses && <img src={selectedGlasses.url} alt={selectedGlasses.name} className="absolute top-1/4 left-1/2 transform -translate-x-1/2 w-2/3 opacity-75" />}
 
 
             <div className=" bg-black bg-opacity-10 from-black to-transparent h-28 flex flex-col justify-end p-5 absolute bottom-0 left-0 right-0">
